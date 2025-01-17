@@ -19,6 +19,6 @@ if [[ ! -f "$CONFIG_FILE" ]]; then
 fi
 
 mkdir ./files
-touch ./files/nothing.txt
+#touch ./files/nothing.txt
 
 docker compose up -d
