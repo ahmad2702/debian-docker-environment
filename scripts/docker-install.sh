@@ -3,7 +3,7 @@
 for pkg in docker.io docker-doc docker-compose podman-docker containerd runc; do apt-get remove $pkg; done
 
 apt-get update -y
-apt-get install net-tools ca-certificates curl -y
+apt-get install ca-certificates curl -y
 
 install -m 0755 -d /etc/apt/keyrings
 
