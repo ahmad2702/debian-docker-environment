@@ -10,15 +10,15 @@ if [[ ! -f "$COMPOSE_FILE" ]]; then
     exit 1
 fi
 
-mkdir config
-CONFIG_FILE="config/web.xml"
+mkdir ./config
+CONFIG_FILE="./config/web.xml"
 wget -O $CONFIG_FILE https://github.com/ahmad2702/debian-docker-environment/raw/refs/heads/main/scripts/tomcat-file-server/config/web.xml
 if [[ ! -f "$CONFIG_FILE" ]]; then
     echo "The file $CONFIG_FILE was not found."
     exit 1
 fi
 
-mkdir files
-touch files/nothing.txt
+mkdir ./files
+touch ./files/nothing.txt
 
 docker compose up -d
