@@ -13,3 +13,7 @@ curl -sSL https://github.com/ahmad2702/debian-docker-environment/raw/refs/heads/
 ## Install Docker
 
 curl -sSL https://github.com/ahmad2702/debian-docker-environment/raw/refs/heads/main/scripts/docker-install.sh | bash
+
+## Install Portainer
+
+curl -sSL https://github.com/ahmad2702/debian-docker-environment/raw/refs/heads/main/scripts/portainer-install.sh | bash
