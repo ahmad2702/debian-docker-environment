@@ -7,4 +7,4 @@ services:
     restart: always
     volumes:
       - ./files:/usr/local/tomcat/webapps/ROOT
-      - ./conf/web.xml:/usr/local/tomcat/conf/web.xml
+      - ./config/web.xml:/usr/local/tomcat/conf/web.xml
