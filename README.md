@@ -4,6 +4,9 @@
 apt-get update -y
 apt-get upgrade -y
 apt-get install net-tools ca-certificates curl -y
+
+# optional: set your timezone
+timedatectl set-timezone Europe/Amsterdam
 ```
 
 # Setups
@@ -24,4 +27,10 @@ curl -sSL https://github.com/ahmad2702/debian-docker-environment/raw/refs/heads/
 
 ```
 curl -sSL https://github.com/ahmad2702/debian-docker-environment/raw/refs/heads/main/scripts/portainer-install.sh | bash
+```
+
+## Install Immich
+
+```
+curl -sSL https://github.com/ahmad2702/debian-docker-environment/raw/refs/heads/main/scripts/immich/install.sh | bash
 ```
