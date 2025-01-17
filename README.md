@@ -34,3 +34,9 @@ curl -sSL https://github.com/ahmad2702/debian-docker-environment/raw/refs/heads/
 ```
 curl -sSL https://github.com/ahmad2702/debian-docker-environment/raw/refs/heads/main/scripts/immich/install.sh | bash
 ```
+
+## Install Static File Server
+
+```
+curl -sSL https://github.com/ahmad2702/debian-docker-environment/raw/refs/heads/main/scripts/tomcat-file-server/install.sh | bash
+```

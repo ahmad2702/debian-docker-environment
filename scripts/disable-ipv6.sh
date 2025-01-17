@@ -10,3 +10,5 @@ echo "Disabling IPv6..."
 # Änderungen anwenden
 echo "Applying sysctl-settings..."
 sysctl -p
+
+reboot
