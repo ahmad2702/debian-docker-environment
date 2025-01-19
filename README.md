@@ -9,6 +9,12 @@ apt-get install net-tools ca-certificates curl -y
 timedatectl set-timezone Europe/Amsterdam
 ```
 
+or just call:
+
+```
+curl -sSL https://github.com/ahmad2702/debian-docker-environment/raw/refs/heads/main/scripts/initial-install.sh | bash
+```
+
 # Setups
 
 ## Disable ipv6
@@ -45,4 +51,10 @@ curl -sSL https://github.com/ahmad2702/debian-docker-environment/raw/refs/heads/
 
 ```
 curl -sSL https://github.com/ahmad2702/debian-docker-environment/raw/refs/heads/main/scripts/nextcloud/install.sh | bash
+```
+
+## Install Nginx Proxy Manager
+
+```
+curl -sSL https://github.com/ahmad2702/debian-docker-environment/raw/refs/heads/main/scripts/nginx-proxy-manager/install.sh | bash
 ```
