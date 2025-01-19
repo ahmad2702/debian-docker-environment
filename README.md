@@ -35,8 +35,14 @@ curl -sSL https://github.com/ahmad2702/debian-docker-environment/raw/refs/heads/
 curl -sSL https://github.com/ahmad2702/debian-docker-environment/raw/refs/heads/main/scripts/immich/install.sh | bash
 ```
 
-## Install Static File Server
+## Install Tomcat File Server
 
 ```
 curl -sSL https://github.com/ahmad2702/debian-docker-environment/raw/refs/heads/main/scripts/tomcat-file-server/install.sh | bash
+```
+
+## Install Nextcloud (All-in-One)
+
+```
+curl -sSL https://github.com/ahmad2702/debian-docker-environment/raw/refs/heads/main/scripts/nextcloud/install.sh | bash
 ```
